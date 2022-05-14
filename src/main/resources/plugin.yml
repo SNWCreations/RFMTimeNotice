@@ -1,0 +1,9 @@
+name: RFM-API-Example # Change this!
+version: '${project.version}'
+main: snw.rfmapiexample.Main # Change this!
+api-version: 1.16
+
+depend:
+  - RunForMoney
+loadbefore:
+  - RunForMoney
