@@ -26,7 +26,7 @@ public final class Main extends JavaPlugin implements Listener {
 
     @EventHandler
     public void onGameStart(GamePostStartEvent event) {
-        Bukkit.getScheduler().runTaskTimer(this, () -> Bukkit.broadcastMessage(ChatColor.RED + "" + ChatColor.BOLD + "游戏时间剩余 " + RunForMoney.getInstance().getGameController().getGameRemainingTime() / 60), 180 * 20L, 180 * 20L);
+        Bukkit.getScheduler().runTaskTimer(this, () -> Bukkit.broadcastMessage(ChatColor.RED + "" + ChatColor.BOLD + "游戏时间剩余 " + (RunForMoney.getInstance().getGameController().getGameRemainingTime() / 60) + " 分钟"), 180 * 20L, 180 * 20L);
     }
 
     @EventHandler
