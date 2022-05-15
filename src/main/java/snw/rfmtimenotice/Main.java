@@ -21,6 +21,7 @@ public final class Main extends JavaPlugin implements Listener {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+        Bukkit.getScheduler().cancelTasks(this);
     }
 
     @EventHandler
