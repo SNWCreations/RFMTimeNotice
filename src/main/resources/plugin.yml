@@ -1,6 +1,6 @@
-name: RFM-API-Example # Change this!
+name: RFMTimeNotice # Change this!
 version: '${project.version}'
-main: snw.rfmapiexample.Main # Change this!
+main: snw.rfmtimenotice.Main # Change this!
 api-version: 1.16
 
 depend:
